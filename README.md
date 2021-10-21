@@ -1,7 +1,10 @@
 # Service Account Finder
 
 The **service account finder** allows you to search github for leaked service accounts.
+
 This script is intended for educational purposes around security problems.
+
+> On average, every 15m a GCP service account is leaked in github.com 
 
 ## Contents
 
