@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  check:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
