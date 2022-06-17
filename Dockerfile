@@ -1,4 +1,4 @@
-FROM node:16.15-bullseye-slim
+FROM node:lts-bullseye-slim
 
 # Create app directory
 WORKDIR /usr/src/app
