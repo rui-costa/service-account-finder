@@ -1,4 +1,4 @@
-FROM node:gallium-bullseye-slim
+FROM node:16.19-bullseye-slim
 
 # Create app directory
 WORKDIR /usr/src/app
